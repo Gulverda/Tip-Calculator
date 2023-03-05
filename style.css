@@ -8,7 +8,12 @@ body {
   background-color: #17252a;
   margin: 0;
 }
-
+.logo{
+  margin-left: 200px;
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: #316e6b;
+}
 .container {
   /* display: block;
   justify-content: center; */
@@ -18,6 +23,7 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  height: 100vh;
 }
 
 .card {
@@ -143,6 +149,13 @@ h1{
 }
 
 @media screen and (max-width: 420px) {
+   .logo{
+    margin-left: 110px;
+    font-size: 25px;
+  }
+  .shua{
+    width: 20px;
+  }
   .card {
     width: 340px;
   }
@@ -159,6 +172,13 @@ h1{
 }
 
 @media screen and (max-width: 325px) {
+   .logo{
+    margin-left: 85px;
+    font-size: 25px;
+  }
+  .shua{
+    width: 20px;
+  }
   h1{
     font-size: 10px;
   }
