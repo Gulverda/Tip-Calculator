@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #17252a;
+  margin: 0;
+}
+
+.container {
+  /* display: block;
+  justify-content: center; */
+  margin: 0 auto;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  width: 600px;
+  background-color: #feffff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card__bill,
+.number-of-people {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.card__bill label,
+.number-of-people label {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #316e6b;
+}
+
+.card__bill-input,
+.number-of-people__value,
+.custom-tip-input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #feffff;
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.05);
+  color: #316e6b;
+}
+
+.select-tip {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.select-tip__percentage,
+.select-tip-custom {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #feffff;
+  color: #316e6b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.select-tip__percentage:hover,
+.select-tip-custom:hover {
+  background-color: #3aafa9;
+  color: #fff;
+}
+
+.select-tip__percentage.active,
+.select-tip-custom.active {
+  background-color: #2b7a78;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+  color: #0c4e4c;
+}
+
+.card2 {
+  background-color: #2b7a78;
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px;
+  width: 600px;
+}
+
+.card2__tip-amount,
+.card2__total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.card2__tip-amount label,
+.card2__total label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.card2__tip-amount-value,
+.card2__total-value {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.reset-btn {
+  border: none;
+  background-color: #f5f5f5;
+  color: #2b7a78;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.reset-btn:hover {
+  background-color: #3aafa9;
+  color: #fff;
+}
+h1{
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 420px) {
+  .card {
+    width: 340px;
+  }
+  .card2{
+    width: 340px;
+  }
+  .select-tip__percentage,
+  .select-tip-custom {
+    width: 100%;
+  }
+  .select-tip-custom input {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  h1{
+    font-size: 10px;
+  }
+  .card {
+    width: 280px;
+  }
+  .card2{
+    width: 280px;
+  }
+  .select-tip__percentage,
+  .select-tip-custom {
+    width: 100%;
+  }
+  .select-tip-custom input {
+    width: 10%;
+    font-size: 5px;
+  }
+}
