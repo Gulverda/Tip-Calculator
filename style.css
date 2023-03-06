@@ -148,9 +148,34 @@ h1{
   margin-top: 10px;
 }
 
+@media  screen and (max-width: 768px) {
+  .logo{
+    margin-top: 50px;
+    margin-left: 145px;
+    font-size: 50px;
+  }
+  .shua{
+    width: 40px;
+  }
+  .card {
+    width: 500px;
+  }
+  .card2{
+    width: 500px;
+  }
+  .select-tip__percentage,
+  .select-tip-custom {
+    width: 100%;
+  }
+  .select-tip-custom input {
+    width: 30px;
+  }
+}
+
 @media screen and (max-width: 420px) {
    .logo{
-    margin-left: 110px;
+    margin-top: 100px;
+    margin-left: 115px;
     font-size: 25px;
   }
   .shua{
@@ -173,6 +198,7 @@ h1{
 
 @media screen and (max-width: 325px) {
    .logo{
+    margin-top: 100px;
     margin-left: 85px;
     font-size: 25px;
   }
