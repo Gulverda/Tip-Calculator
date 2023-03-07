@@ -35,6 +35,11 @@ LIVE: https://gulverda.github.io/Tip-Calculator/
 
 - [@Gulverda](https://www.github.com/Gulverda)
 
+
+## Screenshots
+
+![InternetShortcut](https://cdn.discordapp.com/attachments/748660175467970603/1082678962607632405/image.png)
+
 ## Color Reference
 
 | Color             | Hex                                                                |
