@@ -9,8 +9,8 @@ body {
   margin: 0;
 }
 .logo{
-  margin-left: 200px;
-  font-size: 50px;
+  display: flex;
+  justify-content: center;
   margin-bottom: 50px;
   color: #316e6b;
 }
